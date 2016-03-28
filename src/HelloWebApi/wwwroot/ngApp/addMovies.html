@@ -1,0 +1,14 @@
+﻿
+<form ng-submit="controller.AddMovie()">
+    <label>Title</label>
+    <input type="text" ng-model="controller.title" placeholder="title" />
+
+    <label>Director</label>
+    <input type="text" ng-model="controller.director" placeholder="director" />
+
+    <input type="submit" value="Add" /><br />
+    <div>
+        {{controller.message}}
+    </div>
+
+</form>
